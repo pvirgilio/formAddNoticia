@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainforms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formNoticia {
+}
+
+.formNoticia input,
+textarea {
+  width: 400px;
+  padding: 15px;
+}
+
+.text-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.formNoticia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnEnviar {
+  width: 100%;
+  padding: 15px;
+  margin-top: 1rem;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+#consultar {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+#converter {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container-form {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 5rem;
+}
+
+.formNoticia textarea {
+  resize: vertical;
+}
+
+.img-convert {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#inputImage {
+  border: 1px solid #ccc;
+}
+
+.delete-items {
+  padding: 5rem 0;
+}
+
+.delete-items input {
+  width: 400px;
+  padding: 15px;
+}
+
+.delete-items button,
+.btnCancel {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  width: 150px;
+  font-weight: bold;
+}
+
+.container-confirmation-delete {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.confirmation-delete {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  padding: 50px;
+}
+
+.container-btnConfirmation {
+  display: flex;
+  margin-top: 2rem;
+  gap: 20px;
+  justify-content: end;
+}
+
+.btnConfirm {
+  background-color: green;
+  color: white;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  width: 150px;
+  font-weight: bold;
+}
